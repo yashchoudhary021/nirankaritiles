@@ -1,9 +1,34 @@
+.about-main-section {
+    background-image: url("../../../../public/assets/template/tileBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Add a light overlay */
+    background-blend-mode: lighten;
+    filter: brightness(1.27);
+    /* Increase brightness for a glowing effect */
+}
+
 .about-section {
     position: relative;
     width: 100%;
     height: 100vh;
+    /* for dark the image */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../../../../public/assets//about/series.jpg"); */
     background-image: url("../../../../public/assets//about/series.jpg");
     /* Replace with your image path */
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.about-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    /* color: #b0dbf0; */
+    margin-left: 3rem;
+    background: linear-gradient(#FFFFFF, #71B8DB);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
