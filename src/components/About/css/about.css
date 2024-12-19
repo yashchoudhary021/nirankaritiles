@@ -1,0 +1,9 @@
+.about-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../../public/assets//about/series.jpg");
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
