@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from "./components/header&footer/Header";
 import About from "./components/About/About";
 import Contact from './components/Contact/Contact';
+import Product from './components/Product/Product';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Product />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,0 +1,28 @@
+.burgur {
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    margin: 10px 100px;
+    overflow: hidden;
+    /* Prevent overflow on hover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center the image if necessary */
+}
+
+img {
+    width: 100%;
+    /* Fill the width of the parent */
+    height: 100%;
+    /* Fill the height of the parent */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the area */
+    transition: transform 1s ease;
+}
+
+img:hover {
+    /* transform: scale(1.4); */
+}
